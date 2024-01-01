@@ -1,0 +1,61 @@
+# Presse-Citron Scraper: Navigating the Citrusy World of News with Puppeteer
+
+🚀 Dive into the vibrant and ever-evolving landscape of digital journalism with our Presse-Citron Scraper. Powered by the robust Puppeteer framework and housed within the efficiency of Docker, this project stands at the forefront of modern web scraping technology.
+
+# Installation and Usage
+
+# Prerequisites
+- Docker installed and running
+- Basic familiarity with Docker commands and concepts
+- Internet connection for downloading images and packages
+
+# Installation Steps
+1. **Clone the GitHub Repository:**
+git clone https://github.com/LuminaVolution/Claire-Connection-scraper-presse-citron.git
+cd Claire-Connection-scraper-presse-citron
+
+markdown
+Copy code
+
+2. **Build the Docker Image:**
+docker build -t scraper-presse-citron .
+
+markdown
+Copy code
+
+3. **Run the Docker Container:**
+docker run --rm scraper-presse-citron
+
+yaml
+Copy code
+
+# Usage
+-Set up the scheduler to automatically trigger the scraper at defined intervals.
+-The scraper navigates through the 'Presse-Citron' website and scrapes article information.
+-Article data, including titles, dates, and URLs, is saved as PDFs in a specified directory.
+-Maintains an index JSON file of all articles.
+
+# Triggering the Scraper
+The scraper is configured to be triggered via an HTTP POST request.
+Send a POST request to http://localhost:3000/trigger to start the scraping process manually.
+
+# Key Features
+🌐 Automated Web Scraping: Navigates and scrapes data from 'Presse-Citron'.
+👓 Headless Browsing: Uses Puppeteer for efficient scraping.
+📄 PDF Generation: Converts articles into PDFs.
+🛡️ Robust Error Handling: Checks for internet connectivity and retries failed attempts.
+🐳 Docker Integration: Ensures consistent environments and easy deployment.
+
+# Standout Functionality
+🥷 Stealth Mode: Evades detection with puppeteer-extra-plugin-stealth.
+📈 Scalability: Handles multiple pages, suitable for extensive tasks.
+🎉 Ease of Use: Simple setup and minimal configuration.
+🔧 Customization Potential: Adaptable for different scraping needs.
+
+# Why Use the Presse-Citron Scraper?
+📰 Ideal for Journalists and Researchers: A tool to stay ahead in the news game.
+⏳ Saves Time and Effort: Automated collection of digital content.
+🌐 Reliable Data Gathering: For comprehensive research and analysis.
+
+# Licence
+📝 This project is licensed under MIT License 

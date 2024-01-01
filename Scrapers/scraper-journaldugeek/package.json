@@ -1,0 +1,16 @@
+{
+  "name": "presse-citron-scraper",
+  "version": "1.0.0",
+  "description": "Web scraping script for presse-citron.net",
+  "main": "scraper-presse-citron.js",
+  "scripts": {
+    "start": "node scraper-presse-citron.js"
+  },
+  "author": "mariomoinet",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^5.3.1",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.8"
+  }
+}
