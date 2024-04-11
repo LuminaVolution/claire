@@ -1,0 +1,11 @@
+{
+    "name": "claire-api-service",
+    "version": "1.0.0",
+    "main": "server.js",
+    "dependencies": {
+      "express": "^4.17.1",
+      "pg": "^8.5.1",
+      "dotenv": "^8.2.0"
+    }
+  }
+  
